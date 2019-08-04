@@ -1,0 +1,6 @@
+[Unit]
+Description=Cross server command TCP listener
+
+[Service]
+Type=forking
+ExecStart=/etc/cross-server-commands/listen
